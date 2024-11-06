@@ -1,0 +1,156 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(29, 1fr);
+    grid-template-rows: repeat(29, 1fr);
+    width: 500px;
+    height: 500px;
+    outline: 1px solid black;
+    background-color: black;
+}
+
+/*Couleurs*/
+.yellow {
+    background-color: yellow;
+}
+.blue {
+    background-color: blue;
+}
+.gray {
+    background-color: gray;
+}
+.red {
+    background-color: red;
+}
+
+.white {
+    background-color: white;
+}
+
+/*Les différentes dimensions*/
+
+/*Div Jaune*/
+.a {
+    grid-column: 20/27;
+    grid-row: 2/5;
+}
+
+.b {
+    grid-column: 20/27;
+    grid-row: 6/13;
+}
+
+.c {
+    grid-column: 2/5;
+    grid-row: 23/29;
+}
+
+/*Div bleu*/
+.d {
+    grid-column: 20/27;
+    grid-row: 23/27;
+}
+
+/*Div red*/
+.e {
+    grid-column: 6/19;
+    grid-row: 6/19;
+}
+
+.f {
+    grid-column: 28/29;
+    grid-row: 23/29;
+}
+
+/*Div grise*/
+.z {
+    grid-column: 6/8;
+    grid-row: 20/22;
+}
+
+.w {
+    grid-column: 6/8;
+    grid-row: 23/25;
+}
+
+.y {
+    grid-column: 9/11;
+    grid-row: 20/22;
+}
+
+.x {
+    grid-column: 9/11;
+    grid-row: 23/25;
+}
+
+.v {
+    grid-column: 12/19;
+    grid-row: 26/27;
+}
+
+/*Div blanche*/
+
+.l {
+    grid-column: 2/8;
+    grid-row: 2/5;
+}
+
+.m {
+    grid-column: 9/19;
+    grid-row: 2/5;
+}
+
+.n {
+    grid-column: 2/5;
+    grid-row: 6/13;
+}
+
+.o {
+    grid-column: 2/5;
+    grid-row: 14/22;
+}
+
+.p {
+    grid-column: 6/11;
+    grid-row: 26/29;
+}
+
+.q {
+    grid-column: 12/27;
+    grid-row: 28/29;
+}
+
+.r {
+    grid-column: 12/19;
+    grid-row: 20/22;
+}
+
+.t {
+    grid-column: 20/27;
+    grid-row: 20/22;
+}
+
+.s {
+    grid-column: 12/19;
+    grid-row: 23/25;
+}
+
+.h {
+    grid-column: 20/23;
+    grid-row: 14/19;
+}
+
+.i {
+    grid-column: 24/27;
+    grid-row: 14/19;
+}
+
+.k {
+    grid-column: 28/29;
+    grid-row: 2/22;
+}
